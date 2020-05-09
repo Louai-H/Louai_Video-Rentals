@@ -1,0 +1,40 @@
+{
+  "name": "video_rentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --runInBand --detectOpenHandles --coverage",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "helmet": "^3.22.0",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.1",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
